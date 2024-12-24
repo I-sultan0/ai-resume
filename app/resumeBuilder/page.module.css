@@ -1,0 +1,32 @@
+.resumePage {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 150, 0.8),
+    rgba(0, 204, 255, 0.8)
+  );
+  color: #fff;
+  min-height: 100vh;
+}
+
+.resumeContainer {
+  border: 1px solid black;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+}
+.resumeContainer div {
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+}
+.resumeContainer div img {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
